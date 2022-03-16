@@ -1,0 +1,58 @@
+/*.gray{
+    background-color:gainsboro ;
+
+}
+.green{
+    position: absolute;
+    background-color: rgb(49, 211, 49);
+    top:0px;
+}
+*/
+.container{
+    position: fixed;
+    top: 5px;
+    left: 20%;
+    right: 50%;
+    width: 100%;
+}
+.container.bottom{
+     top: 385px;
+}
+.box{
+     width: fit-content;
+     z-index: 1;
+     position: relative;
+     padding: 2px 4px 2px 4px;
+     bottom: 376px;
+}
+.img{
+     width: auto;
+     height: auto;
+     position: relative;
+     display: inline-block;
+}
+.green{
+     background-color: rgb(6, 179, 6);
+     left: 257px;
+}
+.red{
+     background-color: rgb(245, 65, 65);
+     left: 257px;
+     width:35px;
+}
+ .heart{
+    position: relative;
+    top:340px;
+}
+ .outheart{
+     height: 372px;
+     position: relative;
+     color: rgb(255, 0, 106);
+     text-align: center;
+     bottom: 400px;
+     opacity:0;
+     transition: 0.1s ease;
+ }
+ .outheart:hover{
+     opacity: 1;
+ }
